@@ -1,0 +1,244 @@
+{
+    "highway/bridleway": {
+        "fields": [
+            "surface",
+            "width",
+            "structure",
+            "access"
+        ],
+        "icon": "highway-bridleway",
+        "geometry": [
+            "line"
+        ],
+        "tags": {
+            "highway": "bridleway",
+            "foot": "yes",
+            "bicycle": "no",
+            "horses ": "yes"
+        },
+        "terms": [
+            "bridleway",
+            "equestrian",
+            "horse"
+        ],
+        "name": "Bridle Path"
+    },
+    "highway/crossing": {
+        "fields": [
+            "crossing",
+            "sloped_curb",
+            "tactile_paving"
+        ],
+        "geometry": [
+            "vertex"
+        ],
+        "tags": {
+            "highway": "crossing",
+            "foot": "yes",
+            "bicycle": "no",
+            "horses ": "no"
+        },
+        "terms": [],
+        "name": "Crossing"
+    },
+    "highway/crosswalk": {
+        "fields": [
+            "crossing",
+            "sloped_curb",
+            "tactile_paving"
+        ],
+        "geometry": [
+            "vertex"
+        ],
+        "tags": {
+            "highway": "crossing",
+            "crossing": "zebra",
+            "foot": "yes",
+            "bicycle": "no",
+            "horses ": "no"
+        },
+        "terms": [
+            "zebra crossing"
+        ],
+        "name": "Crosswalk"
+    },
+    "highway/cycleway": {
+        "icon": "highway-cycleway",
+        "fields": [
+            "surface",
+            "lit",
+            "width",
+            "oneway",
+            "structure",
+            "access"
+        ],
+        "geometry": [
+            "line"
+        ],
+        "tags": {
+            "highway": "cycleway",
+            "foot": "no",
+            "bicycle": "yes",
+            "horses ": "no"
+        },
+        "terms": [
+            "bike"
+        ],
+        "name": "Cycle Path"
+    },
+    "highway/footway": {
+        "icon": "highway-footway",
+        "fields": [
+            "surface",
+            "lit",
+            "width",
+            "structure",
+            "access"
+        ],
+        "geometry": [
+            "line",
+            "area"
+        ],
+        "terms": [
+            "hike",
+            "hiking",
+            "trackway",
+            "trail",
+            "walk"
+        ],
+        "tags": {
+            "highway": "footway",
+            "foot": "yes",
+            "bicycle": "yes",
+            "horses ": "no"
+        },
+        "name": "Foot Path"
+    },
+    "highway/living_street": {
+        "icon": "highway-living-street",
+        "fields": [
+            "oneway",
+            "maxspeed",
+            "structure",
+            "access",
+            "surface"
+        ],
+        "geometry": [
+            "line"
+        ],
+        "tags": {
+            "highway": "living_street",
+            "foot": "yes",
+            "bicycle": "yes",
+            "horses ": "no"
+        },
+        "name": "Living Street"
+    },
+    "highway/path": {
+        "icon": "highway-path",
+        "fields": [
+            "surface",
+            "width",
+            "structure",
+            "access",
+            "incline",
+            "sac_scale",
+            "trail_visibility",
+            "mtb/scale",
+            "mtb/scale/uphill",
+            "mtb/scale/imba",
+            "ref"
+        ],
+        "geometry": [
+            "line"
+        ],
+        "terms": [
+            "hike",
+            "hiking",
+            "trackway",
+            "trail",
+            "walk"
+        ],
+        "tags": {
+            "highway": "path",
+            "foot": "yes",
+            "bicycle": "yes",
+            "horses ": "no"
+        },
+        "name": "Path"
+    },
+    "highway/pedestrian": {
+        "fields": [
+            "surface",
+            "lit",
+            "width",
+            "oneway",
+            "structure",
+            "access"
+        ],
+        "geometry": [
+            "line",
+            "area"
+        ],
+        "tags": {
+            "highway": "pedestrian",
+            "foot": "yes",
+            "bicycle": "no",
+            "horses ": "no"
+        },
+        "terms": [],
+        "name": "Pedestrian"
+    },
+    "highway/steps": {
+        "fields": [
+            "surface",
+            "lit",
+            "width",
+            "access",
+            "incline",
+            "structure"
+        ],
+        "icon": "highway-steps",
+        "geometry": [
+            "line"
+        ],
+        "tags": {
+            "highway": "steps",
+            "foot": "yes",
+            "bicycle": "no",
+            "horses ": "no",
+            "ramp/bicycle ": "no"
+        },
+        "terms": [
+            "stairs",
+            "staircase"
+        ],
+        "name": "Steps"
+    },
+    "highway/track": {
+        "icon": "highway-track",
+        "fields": [
+            "surface",
+            "width",
+            "structure",
+            "access",
+            "incline",
+            "tracktype",
+            "smoothness",
+            "mtb/scale",
+            "mtb/scale/uphill",
+            "mtb/scale/imba"
+        ],
+        "geometry": [
+            "line"
+        ],
+        "tags": {
+            "highway": "track"
+        },
+        "terms": [
+            "woods road",
+            "fire road"
+        ],
+        "name": "Track"
+    }
+}
