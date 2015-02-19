@@ -1,0 +1,12 @@
+{
+    "key": "ramp:bicycle",
+    "type": "radio",
+    "label": "Bicycle Ramp",
+    "placeholder": "Yes",
+    "strings": {
+        "options": {
+            "yes": "Yes",
+            "no": "No"
+        }
+    }
+}
